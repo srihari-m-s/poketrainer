@@ -10,7 +10,7 @@ function Hamsearchbox({pkmnList, getPokemon, handleNavClose}) {
   let navigate = useNavigate();
 
   const goHome = () => {
-    navigate("/")
+    navigate("/poketrainer")
   }
 
   const [selectedMon, setSelectedMon] = useState("")

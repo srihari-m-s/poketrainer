@@ -10,7 +10,7 @@ function Searchbox({pkmnList, getPokemon, history}) {
   let navigate = useNavigate();
 
   const goHome = () => {
-    navigate("/")
+    navigate("/poketrainer")
   }
 
   const [selectedMon, setSelectedMon] = useState("")
