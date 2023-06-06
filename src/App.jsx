@@ -1309,7 +1309,7 @@ function App() {
 
       <div className="w-full h-full flex flex-row justify-around items-center page-container">
         <Routes>
-          <Route path="/poketrainer/home" element={<Pokemoncard currPokemon={currPokemon || "pikachu"} pkmnList={PKMNLIST} getNewPokemon={getNewPokemon} />} />
+          <Route path="/poketrainer" element={<Pokemoncard currPokemon={currPokemon || "pikachu"} pkmnList={PKMNLIST} getNewPokemon={getNewPokemon} />} />
           <Route path="/poketrainer/natures" element={<Natures />} />
           <Route path="/poketrainer/typechart" element={<Typechart />} />
         </Routes>
