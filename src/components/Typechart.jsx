@@ -4,7 +4,7 @@ function Typechart() {
   return (
     <div className='chart-cont mt-4 w-full flex flex-row justify-center items-center'>
       {/* Type chart Image. Source - Pokemondb.net, url: https://img.pokemondb.net/images/typechart.png */}
-      <img src="assets/typechart.png" alt="Image of type chart" className="" loading='lazy'/>
+      <img src="./assets/typechart.png" alt="Image of type chart" className="" loading='lazy'/>
     </div>
   )
 }
