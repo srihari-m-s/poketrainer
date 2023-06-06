@@ -9,10 +9,10 @@ function Stats({stats}) {
     useEffect(() => {
         const bars = document.getElementsByClassName("bar")
 
-        if(!mounted.current){
-            mounted.current = true;
+        //if(!mounted.current){
+            //mounted.current = true;
 
-        } else {
+        //} else {
 
             for(let i = 0; i<bars.length; i++){
                 bars[i].classList.remove("slide")
@@ -34,7 +34,7 @@ function Stats({stats}) {
                 }
     
             },750)
-        }
+        //}
 
     },[stats])
 
